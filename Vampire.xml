@@ -44,7 +44,7 @@
             <stat name="strength" value="2"/>
             <stat name="charisma" value="2"/>
             <grant type="Language" id="ID_LANGUAGE_COMMON" />
-            <grant type ="Language" id="ID_LANGUAGE_VAMPIRE"/>
+            <grant type ="Language" id="ID_WOTC_PSI_LANGUAGE_VAMPIRE"/>
             <grant type="Racial Trait" id="ID_EQUINOX_WORLDS_BEYOND_RACE_TRAIT_VAMPIRE_DARKVISION"/>
             <grant type="Racial Trait" id="ID_EQUINOX_WORLDS_BEYOND_RACE_TRAIT_VAMPIRE_LUNGE"/>
             <grant type="Racial Trait" id="ID_EQUINOX_WORLDS_BEYOND_RACE_TRAIT_VAMPIRE_BLOODTHIRST"/>
