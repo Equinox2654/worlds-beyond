@@ -46,10 +46,11 @@
             <grant type="Language" id="ID_LANGUAGE_COMMON" />
             <grant type ="Language" id="ID_WOTC_PSI_LANGUAGE_VAMPIRE"/>
             <grant type="Racial Trait" id="ID_EQUINOX_WORLDS_BEYOND_RACE_TRAIT_VAMPIRE_DARKVISION"/>
-            <grant type="Racial Trait" id="ID_EQUINOX_WORLDS_BEYOND_RACE_TRAIT_VAMPIRE_LUNGE"/>
+            <grant type="Racial Trait" id="ID_EQUINOX_WORLDS_BEYOND_RACE_TRAIT_VAMPIRE_LUNGE" level="2"/>
             <grant type="Racial Trait" id="ID_EQUINOX_WORLDS_BEYOND_RACE_TRAIT_VAMPIRE_BLOODTHIRST"/>
-            <grant type="Racial Trait" id="ID_EQUINOX_WORLDS_BEYOND_RACE_TRAIT_VAMPIRE_STORM"/>
+            <grant type="Racial Trait" id="ID_EQUINOX_WORLDS_BEYOND_RACE_TRAIT_VAMPIRE_STORM" level="5"/>
             <grant type="Racial Trait" id="ID_EQUINOX_WORLDS_BEYOND_RACE_TRAIT_VAMPIRE_BAT"/>
+            <grant type="Racial Trait" id="ID_EQUINOX_WORLDS_BEYOND_RACE_TRAIT_VAMPIRE_FEATHER"/>
         </rules>
     </element>
     <element name="Vampire Darkvision" type="Racial Trait" source="Worlds Beyond" id="ID_EQUINOX_WORLDS_BEYOND_RACE_TRAIT_VAMPIRE_DARKVISION">
@@ -84,5 +85,11 @@
         <rules>
             <stat name="innate speed:fly" value="90" />
         </rules>
+    </element>
+    <element name="Feathered Descent" type="Racial Trait" source="Worlds Beyond" id="ID_EQUINOX_WORLDS_BEYOND_RACE_TRAIT_VAMPIRE_FEATHER">
+        <description><p>You take no fall damage.</p></description>
+        <sheet>
+            <description>You take no fall damage.</description>
+        </sheet>
     </element>
 </elements>
