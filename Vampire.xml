@@ -28,7 +28,7 @@
             <p class="indent"><strong>Weaknesses: </strong>When within 10m of large amounts of silver, your character's abilities will be cut in half, lunge distance and bat flight time. If you make contact with silver you take fire damage equal to 1d4 plus your level.
                 When your character consumes garlic, you take acid damage equal to 1d4 plus your level. When you are splashed with holy water, you take acid damage equal to 1d8 plus your level. Direct sunlight deals 1d4 fire damage per turn at the end of the turn.</p>
             <p class="indent"><strong>Fatal Bite: </strong>If your target dies from your bloodthirst ability, they turn into a vampire after 24 hours if the vampire that bit them wants to.</p>
-            <p class="indent"><strong>Coffin: </strong>When you take a rest in a coffin it takes half the time.</p>
+            <p class="indent"><strong>Coffin: </strong>When you take a long rest inside a coffing it takes half as long and you will be fully rejuvinated.</p>
             <p class="indent"><strong>Ancient Storm: </strong>You can summon a storm once every long rest that lasts 1 day.</p>
             <p class="indent"><strong>Crippling Damage: </strong>When at 1hp you are immobile and must take a rest for 24 hours to regain 1 hp back so that you are no longer crippled.</p>
             <p class="indent"><strong>Slowing Descent: </strong>You take no fall damage from high ground.</p>
@@ -52,6 +52,7 @@
             <grant type="Racial Trait" id="ID_EQUINOX_WORLDS_BEYOND_RACE_TRAIT_VAMPIRE_STORM" level="5"/>
             <grant type="Racial Trait" id="ID_EQUINOX_WORLDS_BEYOND_RACE_TRAIT_VAMPIRE_BAT"/>
             <grant type="Racial Trait" id="ID_EQUINOX_WORLDS_BEYOND_RACE_TRAIT_VAMPIRE_FEATHER"/>
+            <grant type="Racial Trait" id="ID_EQUINOX_WORLDS_BEYOND_RACE_TRAIT_VAMPIRE_COFFIN"/>
         </rules>
     </element>
     <element name="Vampire Darkvision" type="Racial Trait" source="Worlds Beyond" id="ID_EQUINOX_WORLDS_BEYOND_RACE_TRAIT_VAMPIRE_DARKVISION">
@@ -91,6 +92,14 @@
         <description><p>You take no fall damage.</p></description>
         <sheet>
             <description>You take no fall damage.</description>
+        </sheet>
+    </element>
+    <element name="Coffin" type="Racial Trait" source="Worlds Beyond" id="ID_EQUINOX_WORLDS_BEYOND_RACE_TRAIT_VAMPIRE_COFFIN">
+        <description><p>When you take a long rest inside a coffing it takes half as long and you will be fully rejuvinated.</p></description>
+                <sheet>
+            <description>
+                When you take a long rest inside a coffing it takes half as long and you will be fully rejuvinated.
+            </description>
         </sheet>
     </element>
 </elements>
