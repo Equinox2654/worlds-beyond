@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+  <info>
+    <update version="1.0">
+      <file name="worlds-beyond.index" url="https://raw.githubusercontent.com/Equinox2654/worlds-beyond/refs/heads/main/worlds-beyond.index" />
+    </update>
+  </info>
+  <files>
+    <file name="Vampire.xml" url="https://raw.githubusercontent.com/Equinox2654/worlds-beyond/refs/heads/main/Vampire.xml" />
+  </files>
+</index>
