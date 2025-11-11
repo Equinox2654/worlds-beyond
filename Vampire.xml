@@ -20,7 +20,7 @@
             <p class="indent"><strong>Size: </strong>Vampires are similar in height to humans.</p>
             <p class="indent"><strong>Speed: </strong>Vampires have a base walk speed of 30 feet but can double their movespeed as an action.</p>
             <p class="indent"><strong>Vampiric Resistance</strong>Vampires can still take crippling damage but will remain on 1hp until stabbed by a wooden stake or exposed to the sun.</p>
-            <p class="indent"><strong>Darkvision: </strong>Vampires get 60 feet of darkvision.</p>
+            <p class="indent"><strong>Darkvision: </strong>Vampires get 60 extra feet of darkvision.</p>
             <p class="indent"><strong>Languages: </strong>Due to their age vampires can read and write in Common, Vampire and one more language.</p>
             <p class="indent"><strong>Bloodthirst: </strong>You can drain blood and life energy from a willing creature, or one that is grappled by you, incapacitated, or restrained. Make a melee attack against the target. If you hit, you deal 1 piercing damage and 1d6 necrotic damage. The target's hit pont maximum is reduced by an amount equal to the necrotic damage taken, and you regain hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0.</p>
             <p class="indent"><strong>Vampiric Lunge: </strong>As a vampire, you can leap up to 150 feet. You can do this once per long rest.</p>
@@ -43,6 +43,7 @@
         <rules>
             <stat name="strength" value="2"/>
             <stat name="charisma" value="2"/>
+            <stat name="innate speed:walk" value="30"/>
             <grant type="Language" id="ID_LANGUAGE_COMMON" />
             <grant type ="Language" id="ID_WOTC_PSI_LANGUAGE_VAMPIRE"/>
             <grant type="Racial Trait" id="ID_EQUINOX_WORLDS_BEYOND_RACE_TRAIT_VAMPIRE_DARKVISION"/>
@@ -54,9 +55,9 @@
         </rules>
     </element>
     <element name="Vampire Darkvision" type="Racial Trait" source="Worlds Beyond" id="ID_EQUINOX_WORLDS_BEYOND_RACE_TRAIT_VAMPIRE_DARKVISION">
-        <description><p>You have the ability to see 60 feet in the dark.</p></description>
+        <description><p>You have the ability to see 60 extra feet in the dark.</p></description>
         <sheet>
-            <description>You have the ability to see 60 feet in the dark.</description>
+            <description>You have the ability to see 60 extra feet in the dark.</description>
         </sheet>
     </element>
     <element name="Vampiric Lunge" type="Racial Trait" source="Worlds Beyond" id="ID_EQUINOX_WORLDS_BEYOND_RACE_TRAIT_VAMPIRE_LUNGE">
