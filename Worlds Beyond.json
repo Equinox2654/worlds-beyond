@@ -1,0 +1,21 @@
+{
+  "name": "Worlds Beyond",
+  "author": "Equinox",
+  "version": "1.0",
+  "description": "A custom sourcebook for Aurora 5e with homebrew content.",
+  "data": {
+    "classes": [],
+    "races": ["Vampire"],
+    "backgrounds": [],
+    "spells": [],
+    "items": [],
+    "feats": [],
+    "features": [],
+    "conditions": [],
+    "languages": [],
+    "skills": [],
+    "traits": [],
+    "vehicles": [],
+    "notes": []
+  }
+}
