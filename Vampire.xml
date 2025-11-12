@@ -97,7 +97,7 @@
             <description>You take no fall damage.</description>
         </sheet>
     </element>
-    <element name="Coffin" type="Racial Trait" source="Worlds Beyond" id="ID_EQUINOX_WORLDS_BEYOND_RACE_TRAIT_VAMPIRE_COFFIN">
+    <element name="Coffin Sleep" type="Racial Trait" source="Worlds Beyond" id="ID_EQUINOX_WORLDS_BEYOND_RACE_TRAIT_VAMPIRE_COFFIN">
         <description><p>When you take a long rest inside a coffing it takes half as long and you will be fully rejuvinated.</p></description>
                 <sheet>
             <description>
