@@ -48,7 +48,7 @@
             <stat name="innate speed" value="30"/>
             <grant type="Language" id="ID_LANGUAGE_COMMON" />
             <grant type ="Language" id="ID_WOTC_PSI_LANGUAGE_VAMPIRE"/>
-            <grant><choose name="Extra Language" type="Language" number="1"/></grant>
+            <select type="Language" name="Language, " supports="Standard||Exotic" />
             <grant type="Racial Trait" id="ID_EQUINOX_WORLDS_BEYOND_RACE_TRAIT_VAMPIRE_DARKVISION"/>
             <grant type="Racial Trait" id="ID_EQUINOX_WORLDS_BEYOND_RACE_TRAIT_VAMPIRE_LUNGE" level="2"/>
             <grant type="Racial Trait" id="ID_EQUINOX_WORLDS_BEYOND_RACE_TRAIT_VAMPIRE_BLOODTHIRST"/>
