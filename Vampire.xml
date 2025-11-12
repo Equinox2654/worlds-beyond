@@ -55,6 +55,7 @@
             <grant type="Racial Trait" id="ID_EQUINOX_WORLDS_BEYOND_RACE_TRAIT_VAMPIRE_BAT"/>
             <grant type="Racial Trait" id="ID_EQUINOX_WORLDS_BEYOND_RACE_TRAIT_VAMPIRE_FEATHER"/>
             <grant type="Racial Trait" id="ID_EQUINOX_WORLDS_BEYOND_RACE_TRAIT_VAMPIRE_COFFIN"/>
+            <grant type="Racial Trait" id="ID_EQUINOX_WORLDS_BEYOND_RACE_TRAIT_VAMPIRE_BAR"/>
         </rules>
     </element>
     <element name="Vampire Darkvision" type="Racial Trait" source="Worlds Beyond" id="ID_EQUINOX_WORLDS_BEYOND_RACE_TRAIT_VAMPIRE_DARKVISION">
@@ -112,8 +113,7 @@
                 At level 1 you must drink 8 points of blood, the amount increases by 1d6 every level. Your blood bar goes down by 1d4 (2d4 at level 5, 3d4 at level 10 and 4d4 at level 12) every morning.</description>
         </sheet>
         <rules>
-            <resource name="Blood Points" category="Blood Bar" type="Static"/>
-            <stat name="resource:blood points:max" value="8"/>
+            <stat name="Blood Bar Maximum" value="8"/>
             <stat name="Notes" value="You must track this stat manually." />
         </rules>
     </element>
