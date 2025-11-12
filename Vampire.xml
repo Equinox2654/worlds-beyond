@@ -45,7 +45,7 @@
         <rules>
             <stat name="strength" value="2"/>
             <stat name="charisma" value="2"/>
-            <stat name="innate speed:walk" value="30"/>
+            <stat name="innate speed" value="30"/>
             <grant type="Language" id="ID_LANGUAGE_COMMON" />
             <grant type ="Language" id="ID_WOTC_PSI_LANGUAGE_VAMPIRE"/>
             <grant type="Racial Trait" id="ID_EQUINOX_WORLDS_BEYOND_RACE_TRAIT_VAMPIRE_DARKVISION"/>
